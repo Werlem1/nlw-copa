@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Importante ser usado para ser compativel com o navegador edge-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Pra garantir a melhor experiência em todas as plataformas, seja no navegador ou telefone celular-->
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+<style>
+    header h1#calendario {
+        color: #E1E1E6;
+        font-size: 33px;
+        text-transform: uppercase;
+        text-align: center;
+         margin-top: -10px;
+    }
+
+    header img#NLW {
+        display: flex;
+        
+        margin: auto;
+
+    }
+
+</style>
+
+        <title>Calendário de Jogos - NLW Copa</title>
+
+    </head>
+
+
+    <body class="blue">
+        <div id="app">
+            <header>
+                <img src="./assets/logo.svg" alt="Logo da NLW" id="NLW" > <br>
+                <h1 id="calendario">CALENDÁRIO</h1>
+         </header>
+         <main id="cards"></main>
+
+        </div>
+            <script src="./main.js"></script>
+
+
+    </body>
+</html>
